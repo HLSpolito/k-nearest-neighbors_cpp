@@ -1,6 +1,6 @@
 /* 
 ======================================================
- Copyright 2016 Fahad Bin Muslim
+ Copyright 2016 Liang Ma, Fahad Bin Muslim
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
    You may obtain a copy of the License at
@@ -12,11 +12,11 @@
    limitations under the License.
 ======================================================
 *
-* Author:   Fahad Bin Muslim (fahad.muslim@polito.it)
+* Author:   Liang Ma 
 *
-* This OpenCL code has a kernel to calculate the distances     
+* This C++ code is based on the OpenCL codes at https://github.com/fahadmuslim/KNN.
+* This kernel aims to calculate the distances     
 * between the query point and all the points in reference data set.
-* A second kernel is used to identify the nearest neighbors.  
 * 
 *----------------------------------------------------------------------------
 */
